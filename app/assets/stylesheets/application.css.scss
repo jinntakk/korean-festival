@@ -29,6 +29,13 @@
  background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.navbar-default .navbar-nav > li > a {
+ color: white !important;
+ &:hover {
+  opacity: 0.75;
+ }
+}
+
 .a {
  color: white !important;
  &:hover {
